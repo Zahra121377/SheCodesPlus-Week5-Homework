@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <script src="https:unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <title>Search Engine</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="styles.css"
+    />
+  </head>
+  <main>
+    <body>
+      <div id="form">
+        <form id="search">
+          <input
+            type="text"
+            id="city"
+            name="city"
+            placeholder="Type a City ..."
+          />
+          <input
+            type="submit"
+            value="Search"
+            id="submit"
+          />
+          <input
+            type="button"
+            value="Current"
+            id="current"
+          />
+          <div id="show">
+            <div id="showCity"></div>
+            <div id="showDateHumidity"></div>
+            <div id="showWeatherWind"></div>
+            <div id="showTemp"></div>
+          </div>
+        </form>
+      </div>
+
+      <script src="script.js"></script>
+    </body>
+  </main>
+</html>
