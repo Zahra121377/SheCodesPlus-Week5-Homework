@@ -54,7 +54,7 @@ body {
   border-radius: 3pt;
   display: inline;
 
-  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
 }
 
 #showCity {
@@ -63,4 +63,7 @@ body {
 #showTemp {
   font-size: 60px;
   font-weight: bolder;
+}
+a {
+  text-align: center;
 }
